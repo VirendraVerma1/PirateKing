@@ -369,6 +369,9 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/Boat Controller/BoatController.cs"
+"Assets/ShipControlGame/Scripts/ShipBotController.cs"
+"Assets/ShipControlGame/Scripts/ShipControlBoatSpawner.cs"
+"Assets/ShipControlGame/Scripts/ShipControlGameManager.cs"
 "Assets/TutorialInfo/Scripts/Readme.cs"
 -langversion:9.0
 
