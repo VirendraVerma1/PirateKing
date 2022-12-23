@@ -1,0 +1,1911 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.2f1 (d6360bedb9a0) revision 14038539'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Enterprise' Language: 'en' Physical Memory: 16329 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.2f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+F:/Work/Unity Game Project/PirateKing/PirateKing
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+51402
+Successfully changed project path to: F:/Work/Unity Game Project/PirateKing/PirateKing
+F:/Work/Unity Game Project/PirateKing/PirateKing
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 108.11 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.2f1 (d6360bedb9a0)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path F:/Work/Unity Game Project/PirateKing/PirateKing/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GT 710 (ID=0x128b)
+    Vendor:   NVIDIA
+    VRAM:     2007 MB
+    Driver:   30.0.14.7381
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56920
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007331 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 102.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.608 seconds
+Domain Reload Profiling:
+	ReloadAssembly (608ms)
+		BeginReloadAssembly (65ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (438ms)
+			LoadAssemblies (63ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (105ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (264ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (50ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (103ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (75ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004150 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image F:\Work\Unity Game Project\PirateKing\PirateKing\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image F:\Work\Unity Game Project\PirateKing\PirateKing\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 96.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.166 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1167ms)
+		BeginReloadAssembly (202ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (128ms)
+		EndReloadAssembly (869ms)
+			LoadAssemblies (69ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (234ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (485ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (97ms)
+				BeforeProcessingInitializeOnLoad (92ms)
+				ProcessInitializeOnLoadAttributes (210ms)
+				ProcessInitializeOnLoadMethodAttributes (67ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 1.12 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5345 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 45 unused Assets / (457.4 KB). Loaded Objects now: 5816.
+Memory consumption went from 234.0 MB to 233.6 MB.
+Total: 3.821500 ms (FindLiveObjects: 0.510900 ms CreateObjectMapping: 0.152900 ms MarkObjects: 2.896900 ms  DeleteObjects: 0.260000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 345958.727851 seconds.
+  path: Assets/Boat Controller/Boat with camera.prefab
+  artifactKey: Guid(b10ed5ec3358ff74b9ded7ad800e7992) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Boat Controller/Boat with camera.prefab using Guid(b10ed5ec3358ff74b9ded7ad800e7992) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ed3d95bf72a50589990873cfafc39b0') in 0.227296 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.107623 seconds.
+  path: Assets/ShipControlGame/Prefab/GreenBoat.prefab
+  artifactKey: Guid(c1c59f6382b837d459c2e0638ecf244a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/GreenBoat.prefab using Guid(c1c59f6382b837d459c2e0638ecf244a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '801326ae46314ac234886a1c8e958d38') in 0.286687 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/ShipControlGame/Prefab/YellowPoint.prefab
+  artifactKey: Guid(7e0da70fbb800d3458ea673c91c9c51f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/YellowPoint.prefab using Guid(7e0da70fbb800d3458ea673c91c9c51f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51158cf3f481aa4503475a67497b13e2') in 0.056652 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 39.842011 seconds.
+  path: Assets/ShipControlGame/Prefab/GreenBoat.prefab
+  artifactKey: Guid(c1c59f6382b837d459c2e0638ecf244a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/GreenBoat.prefab using Guid(c1c59f6382b837d459c2e0638ecf244a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '703f5807ab2d4b091bd2d206999dca80') in 0.081577 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.615867 seconds.
+  path: Assets/Arts/Fbx models/bevel_cube.fbx
+  artifactKey: Guid(03c9fa55903d79e43af5eb18dc460d6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arts/Fbx models/bevel_cube.fbx using Guid(03c9fa55903d79e43af5eb18dc460d6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '131c37a8948ea95208bef414f2af87d3') in 0.313245 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Arts/Fbx models/smoker.fbx
+  artifactKey: Guid(9887fb9607bc29d4e8e0e0eaf8efc7fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arts/Fbx models/smoker.fbx using Guid(9887fb9607bc29d4e8e0e0eaf8efc7fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96741bd644712adc9a6210d012fcab44') in 0.058002 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Arts/Fbx models/Ship_3.fbx
+  artifactKey: Guid(e7c74dae313925e45b7743406b0e771b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arts/Fbx models/Ship_3.fbx using Guid(e7c74dae313925e45b7743406b0e771b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ab7db49c52bb912fa45a31f3d88320f') in 0.093797 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Arts/Fbx models/Ship_6.fbx
+  artifactKey: Guid(96a999994a5e00042ad9118ce4e14af9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arts/Fbx models/Ship_6.fbx using Guid(96a999994a5e00042ad9118ce4e14af9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '329af123d4e9bc994b0ad26d153ab02e') in 0.091741 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Arts/Fbx models/Ship_2.fbx
+  artifactKey: Guid(105e40dca79d29d4f9da6cf8fc780252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arts/Fbx models/Ship_2.fbx using Guid(105e40dca79d29d4f9da6cf8fc780252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03699c0525def23cfee971a195f26e57') in 0.076611 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Arts/Fbx models/Ship_1.fbx
+  artifactKey: Guid(72bb18cb47087a446ab880816871cd5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arts/Fbx models/Ship_1.fbx using Guid(72bb18cb47087a446ab880816871cd5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2226346e5423f962dcd090f50d784599') in 0.070301 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Arts/Fbx models/Statue_1.fbx
+  artifactKey: Guid(6bb396bbd36966c469b4e09a0b49a471) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arts/Fbx models/Statue_1.fbx using Guid(6bb396bbd36966c469b4e09a0b49a471) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8774ebe87719e58b21c0b0813f45f80d') in 0.040822 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Arts/Fbx models/imagePlane1.fbx
+  artifactKey: Guid(4e2e45da68eb31942a7c0bf8faca2abb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arts/Fbx models/imagePlane1.fbx using Guid(4e2e45da68eb31942a7c0bf8faca2abb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1acaf477387df53d22b615d59302f60') in 0.010028 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Arts/Fbx models/Ship_7.fbx
+  artifactKey: Guid(abc76fb44357e2c4982bd4b4e85c9b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arts/Fbx models/Ship_7.fbx using Guid(abc76fb44357e2c4982bd4b4e85c9b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6c60663e7edbccfa70d70495f0f53c6') in 0.121869 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Arts/Fbx models/window.fbx
+  artifactKey: Guid(7948212d101aa28458662d46cb94aa96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arts/Fbx models/window.fbx using Guid(7948212d101aa28458662d46cb94aa96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9deae232b6ebf6c43e0f0ea1635ec263') in 0.054023 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.389505 seconds.
+  path: Assets/Arts/Fbx models/bevel_cube.fbx
+  artifactKey: Guid(03c9fa55903d79e43af5eb18dc460d6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arts/Fbx models/bevel_cube.fbx using Guid(03c9fa55903d79e43af5eb18dc460d6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0972a8eb06d7cfb75413347fe6c4a9f2') in 0.055782 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Arts/Fbx models/pillar5.fbx
+  artifactKey: Guid(3ad74007e2315d84abed17975881b419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arts/Fbx models/pillar5.fbx using Guid(3ad74007e2315d84abed17975881b419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '736821fe1d25f6650a7b682e1be636c3') in 0.049189 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Arts/Fbx models/Container.fbx
+  artifactKey: Guid(e3fea5e1204104547a76d77cd37a8f94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arts/Fbx models/Container.fbx using Guid(e3fea5e1204104547a76d77cd37a8f94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3227a75a16fee56f2cc12112335ca00') in 0.040151 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Arts/Fbx models/cubiod.fbx
+  artifactKey: Guid(a72be3d5d7ab37e4cbde53e690aee29f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arts/Fbx models/cubiod.fbx using Guid(a72be3d5d7ab37e4cbde53e690aee29f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a265e93dd048221f64386a01f6e22324') in 0.043649 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Arts/Fbx models/Ship_6.fbx
+  artifactKey: Guid(96a999994a5e00042ad9118ce4e14af9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arts/Fbx models/Ship_6.fbx using Guid(96a999994a5e00042ad9118ce4e14af9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44245338e91f457697287c99a8425297') in 0.094002 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Arts/Fbx models/Ship_1.fbx
+  artifactKey: Guid(72bb18cb47087a446ab880816871cd5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arts/Fbx models/Ship_1.fbx using Guid(72bb18cb47087a446ab880816871cd5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f723040d095c23bef595c390322cdd8') in 0.081332 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Arts/Fbx models/Statue_1.fbx
+  artifactKey: Guid(6bb396bbd36966c469b4e09a0b49a471) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arts/Fbx models/Statue_1.fbx using Guid(6bb396bbd36966c469b4e09a0b49a471) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7564056308a348c3ac74ce486620c5cf') in 0.056348 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Arts/Fbx models/smoking_pillar.fbx
+  artifactKey: Guid(d048afb908bd6f34e8ea9b79173342c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arts/Fbx models/smoking_pillar.fbx using Guid(d048afb908bd6f34e8ea9b79173342c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9933851029bc6c305edf0e9ae7ffb661') in 0.077539 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Arts/Fbx models/window.fbx
+  artifactKey: Guid(7948212d101aa28458662d46cb94aa96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arts/Fbx models/window.fbx using Guid(7948212d101aa28458662d46cb94aa96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0ded5637bf17bf3273f6ba8970c12dd') in 0.057793 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004539 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image F:\Work\Unity Game Project\PirateKing\PirateKing\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image F:\Work\Unity Game Project\PirateKing\PirateKing\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.11 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.027 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1028ms)
+		BeginReloadAssembly (127ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (43ms)
+		EndReloadAssembly (816ms)
+			LoadAssemblies (77ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (246ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (380ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (76ms)
+				ProcessInitializeOnLoadAttributes (204ms)
+				ProcessInitializeOnLoadMethodAttributes (69ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.24 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5160 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (433.4 KB). Loaded Objects now: 5948.
+Memory consumption went from 226.7 MB to 226.3 MB.
+Total: 4.195200 ms (FindLiveObjects: 0.524800 ms CreateObjectMapping: 0.146700 ms MarkObjects: 3.210500 ms  DeleteObjects: 0.311600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 141.393719 seconds.
+  path: Assets/ShipControlGame/Prefab/GreenBoat.prefab
+  artifactKey: Guid(c1c59f6382b837d459c2e0638ecf244a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/GreenBoat.prefab using Guid(c1c59f6382b837d459c2e0638ecf244a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b70562e956c66f2f418366ddf5d23353') in 0.230665 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.582782 seconds.
+  path: Assets/ShipControlGame/Prefab/GreenBoat.prefab
+  artifactKey: Guid(c1c59f6382b837d459c2e0638ecf244a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/GreenBoat.prefab using Guid(c1c59f6382b837d459c2e0638ecf244a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94cbd7720130541bfa224bd3b6b555fb') in 0.124022 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003769 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image F:\Work\Unity Game Project\PirateKing\PirateKing\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image F:\Work\Unity Game Project\PirateKing\PirateKing\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.22 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.004 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1005ms)
+		BeginReloadAssembly (129ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (47ms)
+		EndReloadAssembly (789ms)
+			LoadAssemblies (78ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (234ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (371ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (21ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (71ms)
+				ProcessInitializeOnLoadAttributes (201ms)
+				ProcessInitializeOnLoadMethodAttributes (68ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.21 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5160 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (433.6 KB). Loaded Objects now: 6006.
+Memory consumption went from 226.8 MB to 226.4 MB.
+Total: 4.163100 ms (FindLiveObjects: 0.654200 ms CreateObjectMapping: 0.141300 ms MarkObjects: 3.072800 ms  DeleteObjects: 0.293700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 87.873966 seconds.
+  path: Assets/ShipControlGame/Prefab/YellowBoat.prefab
+  artifactKey: Guid(13f4f10173784a345ba226697a37ed42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/YellowBoat.prefab using Guid(13f4f10173784a345ba226697a37ed42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3478edd64e91a7d150759d13d163edaa') in 0.267829 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.400175 seconds.
+  path: Assets/ShipControlGame/Prefab/YellowBoat.prefab
+  artifactKey: Guid(13f4f10173784a345ba226697a37ed42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/YellowBoat.prefab using Guid(13f4f10173784a345ba226697a37ed42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f93e3c82ed4013462969a57763613ab3') in 0.103057 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.319728 seconds.
+  path: Assets/ShipControlGame/Prefab/YellowBoat.prefab
+  artifactKey: Guid(13f4f10173784a345ba226697a37ed42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/YellowBoat.prefab using Guid(13f4f10173784a345ba226697a37ed42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7280c7fe2d1cb20c6f409d8d469c16f1') in 0.099263 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.414336 seconds.
+  path: Assets/ShipControlGame/Prefab/YellowBoat.prefab
+  artifactKey: Guid(13f4f10173784a345ba226697a37ed42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/YellowBoat.prefab using Guid(13f4f10173784a345ba226697a37ed42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a608505f3f045df2884ea7e68b0a104') in 0.101202 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.118118 seconds.
+  path: Assets/ShipControlGame/Prefab/YellowBoat.prefab
+  artifactKey: Guid(13f4f10173784a345ba226697a37ed42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/YellowBoat.prefab using Guid(13f4f10173784a345ba226697a37ed42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b2dbab3589bd6e357705b3cf69f35ec') in 0.105813 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.964027 seconds.
+  path: Assets/ShipControlGame/Prefab/YellowBoat.prefab
+  artifactKey: Guid(13f4f10173784a345ba226697a37ed42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/YellowBoat.prefab using Guid(13f4f10173784a345ba226697a37ed42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9555fc0a9aed28c23eab3c2c2972295') in 0.101564 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.659307 seconds.
+  path: Assets/ShipControlGame/Prefab/YellowBoat.prefab
+  artifactKey: Guid(13f4f10173784a345ba226697a37ed42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/YellowBoat.prefab using Guid(13f4f10173784a345ba226697a37ed42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e210028741078a77f329e260d8687c1e') in 0.105357 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003812 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image F:\Work\Unity Game Project\PirateKing\PirateKing\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image F:\Work\Unity Game Project\PirateKing\PirateKing\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.26 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.000 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1001ms)
+		BeginReloadAssembly (125ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (45ms)
+		EndReloadAssembly (792ms)
+			LoadAssemblies (75ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (230ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (376ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (74ms)
+				ProcessInitializeOnLoadAttributes (202ms)
+				ProcessInitializeOnLoadMethodAttributes (69ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.06 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5160 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (425.5 KB). Loaded Objects now: 6069.
+Memory consumption went from 226.8 MB to 226.4 MB.
+Total: 4.003500 ms (FindLiveObjects: 0.585800 ms CreateObjectMapping: 0.160700 ms MarkObjects: 2.951800 ms  DeleteObjects: 0.304100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 47.489860 seconds.
+  path: Assets/ShipControlGame/Prefab
+  artifactKey: Guid(ad4877912af136d41957f36fe71bcd96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab using Guid(ad4877912af136d41957f36fe71bcd96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '770454f1f94efd24f6dcc9ef87168d06') in 0.014702 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.121876 seconds.
+  path: Assets/ShipControlGame/Prefab/Green Boats
+  artifactKey: Guid(ea8a64c21d3df3d498dba1f1c08f9e71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/Green Boats using Guid(ea8a64c21d3df3d498dba1f1c08f9e71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2b0d5b0e08047298a625988a9ddc835') in 0.005256 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.597589 seconds.
+  path: Assets/ShipControlGame/Prefab/Green Boats 1
+  artifactKey: Guid(dae10916aab339f49b76f7fca76118ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/Green Boats 1 using Guid(dae10916aab339f49b76f7fca76118ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4be417907874cee55d6ef6da2837d04e') in 0.005054 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.826579 seconds.
+  path: Assets/ShipControlGame/Prefab/Red Boats
+  artifactKey: Guid(dae10916aab339f49b76f7fca76118ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/Red Boats using Guid(dae10916aab339f49b76f7fca76118ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '238ed44adb24eac2c03bd2c31d1d34e9') in 0.005650 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.708478 seconds.
+  path: Assets/ShipControlGame/Prefab/Red Boats 1
+  artifactKey: Guid(b33f77fcfd6a35c4cb328d1ece9d09ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/Red Boats 1 using Guid(b33f77fcfd6a35c4cb328d1ece9d09ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bcfeb4220ed5421144be7bf2bcd6ea9') in 0.004987 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.606444 seconds.
+  path: Assets/ShipControlGame/Prefab/yellow boats
+  artifactKey: Guid(b33f77fcfd6a35c4cb328d1ece9d09ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/yellow boats using Guid(b33f77fcfd6a35c4cb328d1ece9d09ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ed8edc866e9410ae2df1720b1ab7941') in 0.006041 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.319354 seconds.
+  path: Assets/ShipControlGame/Prefab/GreenBoat 1.prefab
+  artifactKey: Guid(7f4c78d871dcd104fbcbd14b2d76ae87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/GreenBoat 1.prefab using Guid(7f4c78d871dcd104fbcbd14b2d76ae87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a217b5247ff1c0f70d6a51e08b68e34') in 0.235444 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 40.307960 seconds.
+  path: Assets/Arts/Materials/ripple animation.mat
+  artifactKey: Guid(3bfc4b422726bde4983e8590bcb2616e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arts/Materials/ripple animation.mat using Guid(3bfc4b422726bde4983e8590bcb2616e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '539ddfc46a5cadf15b841c3595ddf07a') in 0.089776 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.174968 seconds.
+  path: Assets/Arts/Materials
+  artifactKey: Guid(f508c4387ed31624aa2e13559fcda3fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arts/Materials using Guid(f508c4387ed31624aa2e13559fcda3fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2709fca298cd8c72592fecc0e872f1e') in 0.005596 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.026301 seconds.
+  path: Assets/Arts/Materials/Red mat.mat
+  artifactKey: Guid(be0ff66420a182e4e8f7f821c6cc3bfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arts/Materials/Red mat.mat using Guid(be0ff66420a182e4e8f7f821c6cc3bfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '165fc685274fda5ee0d592ea4ce84d29') in 0.021705 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.127721 seconds.
+  path: Assets/Arts/Materials/Red mat 1.mat
+  artifactKey: Guid(ae5688b6849b15245a2278c8ee817da5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arts/Materials/Red mat 1.mat using Guid(ae5688b6849b15245a2278c8ee817da5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b129cbe763b5bcd310874105e977eba') in 0.015866 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.046925 seconds.
+  path: Assets/Arts/Materials/Green mat.mat
+  artifactKey: Guid(ae5688b6849b15245a2278c8ee817da5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arts/Materials/Green mat.mat using Guid(ae5688b6849b15245a2278c8ee817da5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66fb200c562af42f03894437fea17c64') in 0.019366 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.219523 seconds.
+  path: Assets/Arts/Materials/Green mat 1.mat
+  artifactKey: Guid(b023e9b982aa85d4893abe95e5e1cb00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arts/Materials/Green mat 1.mat using Guid(b023e9b982aa85d4893abe95e5e1cb00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4775e54c898fd3b115cc52eaa4d2d6da') in 0.019477 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.516875 seconds.
+  path: Assets/Arts/Materials/Yellow mat.mat
+  artifactKey: Guid(b023e9b982aa85d4893abe95e5e1cb00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arts/Materials/Yellow mat.mat using Guid(b023e9b982aa85d4893abe95e5e1cb00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15470bb6bcb2f0d0fb7694591ceeca08') in 0.018919 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 78.036291 seconds.
+  path: Assets/Arts/Materials/brown mat.mat
+  artifactKey: Guid(d4201cc3a948a814a904566ca24839d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arts/Materials/brown mat.mat using Guid(d4201cc3a948a814a904566ca24839d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cae99763de32261e11ef7b5e50fc69ab') in 0.030780 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 33.423776 seconds.
+  path: Assets/Arts/Materials/white mat.mat
+  artifactKey: Guid(d4201cc3a948a814a904566ca24839d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arts/Materials/white mat.mat using Guid(d4201cc3a948a814a904566ca24839d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98a7e8fbdce1e7d70e24911c0ef848e7') in 0.019820 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 106.355348 seconds.
+  path: Assets/ShipControlGame/External/BrokenVector/LowPolyCliffPack/Prefabs/Clifftile Concave.prefab
+  artifactKey: Guid(0e9835138ad5dba4eba43667ec61532b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/External/BrokenVector/LowPolyCliffPack/Prefabs/Clifftile Concave.prefab using Guid(0e9835138ad5dba4eba43667ec61532b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6925ed7b1445b0ec97e229af01ab19f0') in 0.048951 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/ShipControlGame/External/BrokenVector/LowPolyCliffPack/Prefabs/Clifftile Convex.prefab
+  artifactKey: Guid(62e60247eb7840d418f372425884878d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/External/BrokenVector/LowPolyCliffPack/Prefabs/Clifftile Convex.prefab using Guid(62e60247eb7840d418f372425884878d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fd90443d30ea0cd5173f4afd9d6624e') in 0.030758 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/ShipControlGame/External/BrokenVector/LowPolyCliffPack/Prefabs/Rocktile Diagonal.prefab
+  artifactKey: Guid(7a160d313e6ca0c4d8d3191f76fc0fce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/External/BrokenVector/LowPolyCliffPack/Prefabs/Rocktile Diagonal.prefab using Guid(7a160d313e6ca0c4d8d3191f76fc0fce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb09d7b623b49dd15a2a19b00c0297c6') in 0.024005 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/ShipControlGame/External/BrokenVector/LowPolyCliffPack/Prefabs/Rocktile Straight 2.prefab
+  artifactKey: Guid(9447ff023d0aaf84f85f4d030320cd33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/External/BrokenVector/LowPolyCliffPack/Prefabs/Rocktile Straight 2.prefab using Guid(9447ff023d0aaf84f85f4d030320cd33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f6472651ea3b243c31d3efad9fbc43c') in 0.027650 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/ShipControlGame/External/BrokenVector/LowPolyCliffPack/Prefabs/Clifftile Connector 2.prefab
+  artifactKey: Guid(797710b9cddb52647aa5e2345461502f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/External/BrokenVector/LowPolyCliffPack/Prefabs/Clifftile Connector 2.prefab using Guid(797710b9cddb52647aa5e2345461502f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06813e22309260e474c900b38e428e4e') in 0.024667 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/ShipControlGame/External/BrokenVector/LowPolyCliffPack/Prefabs/Grasstile Convex.prefab
+  artifactKey: Guid(769a9382f28132144be1d13e8384cfc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/External/BrokenVector/LowPolyCliffPack/Prefabs/Grasstile Convex.prefab using Guid(769a9382f28132144be1d13e8384cfc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55884c914ef8c9893595f0d4d39f47bb') in 0.024044 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/ShipControlGame/External/BrokenVector/LowPolyCliffPack/Prefabs/Rocktile Straight 1.prefab
+  artifactKey: Guid(76e8f3483e59e9245a3d8a6ccbed01ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/External/BrokenVector/LowPolyCliffPack/Prefabs/Rocktile Straight 1.prefab using Guid(76e8f3483e59e9245a3d8a6ccbed01ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5eb96d13d0340652fe8491931669540d') in 0.030245 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/ShipControlGame/External/BrokenVector/LowPolyCliffPack/Prefabs/Rocktile Pass.prefab
+  artifactKey: Guid(9d97c296676698f4c9eb639317cc0e8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/External/BrokenVector/LowPolyCliffPack/Prefabs/Rocktile Pass.prefab using Guid(9d97c296676698f4c9eb639317cc0e8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '276cd806ad732b9879a12d0501f5e134') in 0.026892 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/ShipControlGame/External/BrokenVector/LowPolyCliffPack/Prefabs/Grasstile Straight.prefab
+  artifactKey: Guid(89d02998542d0c24ea73447f89e6304f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/External/BrokenVector/LowPolyCliffPack/Prefabs/Grasstile Straight.prefab using Guid(89d02998542d0c24ea73447f89e6304f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '464caced43ae8d530baa37644c7eceb2') in 0.156764 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.048947 seconds.
+  path: Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 1.prefab
+  artifactKey: Guid(7f4c78d871dcd104fbcbd14b2d76ae87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 1.prefab using Guid(7f4c78d871dcd104fbcbd14b2d76ae87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b837ff10c5dc005cc3cfb2d80c8f1ee') in 0.078224 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 210.828463 seconds.
+  path: Assets/Arts/Fbx models/water plane.fbx
+  artifactKey: Guid(999a775734e9a5b4e953f9d76367f906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arts/Fbx models/water plane.fbx using Guid(999a775734e9a5b4e953f9d76367f906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3da2d5500349e910ece57c772157a7d6') in 0.058862 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.441882 seconds.
+  path: Assets/Arts/Fbx models/water plane.fbx
+  artifactKey: Guid(999a775734e9a5b4e953f9d76367f906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arts/Fbx models/water plane.fbx using Guid(999a775734e9a5b4e953f9d76367f906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f69438515a61c75b031809cf34c5ac1d') in 0.123747 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 76.705554 seconds.
+  path: Assets/ShipControlGame/External/Fantasy Skybox FREE/Panoramics/FS002/FS002_Snowy.png
+  artifactKey: Guid(0ffe8585761fae642bd4d7d85819a5f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/External/Fantasy Skybox FREE/Panoramics/FS002/FS002_Snowy.png using Guid(0ffe8585761fae642bd4d7d85819a5f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3170447e2dbbff7f9772417e49ade77e') in 0.115540 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/ShipControlGame/External/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Snowy_Cubemap_right.png
+  artifactKey: Guid(039177134e11e6649a23a076c2665593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/External/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Snowy_Cubemap_right.png using Guid(039177134e11e6649a23a076c2665593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b8ad0847e76e133434305614928b92f') in 0.142244 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/ShipControlGame/External/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Snowy_Cubemap_back.png
+  artifactKey: Guid(a1d096d5e6646fc43b0fda1d4187a9ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/External/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Snowy_Cubemap_back.png using Guid(a1d096d5e6646fc43b0fda1d4187a9ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10997948c92bdd954bc850f3a50f9d5c') in 0.046970 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/ShipControlGame/External/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Rainy_Cubemap_down.png
+  artifactKey: Guid(982ca3eb7f121f04ea3f7b2853b95f05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/External/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Rainy_Cubemap_down.png using Guid(982ca3eb7f121f04ea3f7b2853b95f05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99761c22dde7bf4606212c0ecd2aeb18') in 0.048301 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/ShipControlGame/External/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Snowy_Cubemap_down.png
+  artifactKey: Guid(e0b1860da5982404699488bb18ae0a5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/External/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Snowy_Cubemap_down.png using Guid(e0b1860da5982404699488bb18ae0a5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe725a57267a98d08faa9ec00adf514d') in 0.115698 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/ShipControlGame/External/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Snowy_Cubemap_back.png
+  artifactKey: Guid(6a627b1974e621b4d89e686530a0e0af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/External/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Snowy_Cubemap_back.png using Guid(6a627b1974e621b4d89e686530a0e0af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4a80c31f47e330b8e88701c16b39658') in 0.054376 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/ShipControlGame/External/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Sunset_Cubemap_down.png
+  artifactKey: Guid(37fd5ccf0f532fe40844ebd4ff435df1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/External/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Sunset_Cubemap_down.png using Guid(37fd5ccf0f532fe40844ebd4ff435df1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcb9bcc7651664ee2d9962f5f5a3f931') in 0.038448 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/ShipControlGame/External/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Snowy_Cubemap_up.png
+  artifactKey: Guid(1b0b823e03e5ccd4094b442cb46589ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/External/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Snowy_Cubemap_up.png using Guid(1b0b823e03e5ccd4094b442cb46589ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a7cf082f6f5d6ada9c712c471756089') in 0.036439 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/ShipControlGame/External/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Night_Cubemap_down.png
+  artifactKey: Guid(b1640b8d29bde89459ccc716a7109c0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/External/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Night_Cubemap_down.png using Guid(b1640b8d29bde89459ccc716a7109c0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca746670ed45e0849b1868ced7f2097d') in 0.037652 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/ShipControlGame/External/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Sunrise_Cubemap_down.png
+  artifactKey: Guid(aa500d95bc3879d4c82b1763ee51f672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/External/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Sunrise_Cubemap_down.png using Guid(aa500d95bc3879d4c82b1763ee51f672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b747b2a1a61bd17bb83f63cc17a8ca33') in 0.036945 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/ShipControlGame/External/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Day_Sunless_Cubemap_down.png
+  artifactKey: Guid(d33547bdc1205634284abdfc244313f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/External/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Day_Sunless_Cubemap_down.png using Guid(d33547bdc1205634284abdfc244313f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd068e095e7103ea6f434123408112eab') in 0.036628 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/ShipControlGame/External/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Rainy_Cubemap_down.png
+  artifactKey: Guid(3b3d4ff10b5623e4297c319466db5c99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/External/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Rainy_Cubemap_down.png using Guid(3b3d4ff10b5623e4297c319466db5c99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '981341fbe159661c70bc5eb5468bee9f') in 0.039489 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/ShipControlGame/External/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Day_Sunless_Cubemap_down.png
+  artifactKey: Guid(1c80ea766d372ae4d88b370aac8f041d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/External/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Day_Sunless_Cubemap_down.png using Guid(1c80ea766d372ae4d88b370aac8f041d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67259cd40b58779e232e452d32cbbec5') in 0.039100 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ShipControlGame/External/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Snowy_Cubemap_right.png
+  artifactKey: Guid(5c46f2542d5351644a55816853af44c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/External/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Snowy_Cubemap_right.png using Guid(5c46f2542d5351644a55816853af44c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ac3150bf6ff96a14600671a53e2a720') in 0.032024 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/ShipControlGame/External/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Night_Cubemap_down.png
+  artifactKey: Guid(c952eb03fe2ac9a42ac3c5ac822c516a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/External/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Night_Cubemap_down.png using Guid(c952eb03fe2ac9a42ac3c5ac822c516a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c060dab77a241d7365eb7ffc76e9c691') in 0.034337 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/ShipControlGame/External/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Snowy_Cubemap_down.png
+  artifactKey: Guid(53e565877d91dfb40a84754ec90bc448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/External/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Snowy_Cubemap_down.png using Guid(53e565877d91dfb40a84754ec90bc448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aefbec6c28b9e41bf6e802350cae043e') in 0.031853 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ShipControlGame/External/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Day_Sunless_Cubemap_down.png
+  artifactKey: Guid(864946e2b515a414080fee401eca2422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/External/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Day_Sunless_Cubemap_down.png using Guid(864946e2b515a414080fee401eca2422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '229a76f0767818d8a2692bb2f1009b40') in 0.025004 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ShipControlGame/External/Fantasy Skybox FREE/Panoramics/FS003/FS003_Snowy.png
+  artifactKey: Guid(f4d685236ef56ef41a4ddef00508a2c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/External/Fantasy Skybox FREE/Panoramics/FS003/FS003_Snowy.png using Guid(f4d685236ef56ef41a4ddef00508a2c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c0fcadf0931d985969761975fd8e802') in 0.030145 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ShipControlGame/External/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Snowy_Cubemap_back.png
+  artifactKey: Guid(93e9efc68eb3d904f94f90521df25bbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/External/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Snowy_Cubemap_back.png using Guid(93e9efc68eb3d904f94f90521df25bbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '578b9f75d92dba56bacc56d5c4e4191a') in 0.024904 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/ShipControlGame/External/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Night_Moonless_Cubemap_down.png
+  artifactKey: Guid(3f604e637f058c446b0764c5f713a1e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/External/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Night_Moonless_Cubemap_down.png using Guid(3f604e637f058c446b0764c5f713a1e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4867b04adf461c479057d0e3a6277280') in 0.025565 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/ShipControlGame/External/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Snowy_Cubemap_left.png
+  artifactKey: Guid(c2bfb394ae4aebc41bea4ea526108a2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/External/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Snowy_Cubemap_left.png using Guid(c2bfb394ae4aebc41bea4ea526108a2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac16caabd57e347760fed143aefa713e') in 0.035024 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/ShipControlGame/External/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Day_Cubemap_down.png
+  artifactKey: Guid(bd047541345c68145ba0e6bacb5520fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/External/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Day_Cubemap_down.png using Guid(bd047541345c68145ba0e6bacb5520fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f614cb1fc87f84343332f7eed11ca072') in 0.058174 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/ShipControlGame/External/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Snowy_Cubemap_up.png
+  artifactKey: Guid(0d371d958e6fe89419bfb8f6a4cf5ab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/External/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Snowy_Cubemap_up.png using Guid(0d371d958e6fe89419bfb8f6a4cf5ab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ce308776aa36f0aa12fc8fdea16ccbe') in 0.039027 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/ShipControlGame/External/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Sunset_Cubemap_down.png
+  artifactKey: Guid(81843544bdbcf7544a4807db93d3f72d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/External/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Sunset_Cubemap_down.png using Guid(81843544bdbcf7544a4807db93d3f72d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78e4131878e8ee755474d155e48ffcc0') in 0.126782 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/ShipControlGame/External/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Snowy_Cubemap.cubemap
+  artifactKey: Guid(467e99ebe4fb3364fb42faadeb1d8ea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/External/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Snowy_Cubemap.cubemap using Guid(467e99ebe4fb3364fb42faadeb1d8ea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '258706cc850fac989595abde25590a19') in 0.486604 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/ShipControlGame/External/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Sunrise_Cubemap_down.png
+  artifactKey: Guid(faa091a4f426571439024d7f5cd360c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/External/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Sunrise_Cubemap_down.png using Guid(faa091a4f426571439024d7f5cd360c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44545a3a9c88e05cd8682568a0ad4218') in 0.040457 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/ShipControlGame/External/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Sunrise_Cubemap_down.png
+  artifactKey: Guid(b3e3bc890f9d6734492a28bf6942516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/External/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Sunrise_Cubemap_down.png using Guid(b3e3bc890f9d6734492a28bf6942516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30a48bb636991457f2ba9ca43a91ac6f') in 0.026745 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/ShipControlGame/External/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Snowy_Cubemap_down.png
+  artifactKey: Guid(4e02c0aa4e5d3bb43a2b009383b40603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/External/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Snowy_Cubemap_down.png using Guid(4e02c0aa4e5d3bb43a2b009383b40603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77bc3be4fd36c09a9ecf3ca256ac184d') in 0.029745 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/ShipControlGame/External/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Night_Cubemap_down.png
+  artifactKey: Guid(e0ba42174e4a6494594f41b2d8228d58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/External/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Night_Cubemap_down.png using Guid(e0ba42174e4a6494594f41b2d8228d58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68984cedba8c60bba787e1a1973e8612') in 0.028946 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/ShipControlGame/External/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Night_Moonless_Cubemap_down.png
+  artifactKey: Guid(e19faddf1ebd4f547a09cb46b6b3be0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/External/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Night_Moonless_Cubemap_down.png using Guid(e19faddf1ebd4f547a09cb46b6b3be0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02d07a3322d7ecc3ce7e2552318bd6e6') in 0.029863 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/ShipControlGame/External/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Snowy_Cubemap_left.png
+  artifactKey: Guid(52d0574b33ad80642b582b6b905a5931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/External/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Snowy_Cubemap_left.png using Guid(52d0574b33ad80642b582b6b905a5931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55f30321f5e9032bdfb40357911a693d') in 0.027643 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/ShipControlGame/External/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Snowy_Cubemap_left.png
+  artifactKey: Guid(a9256522eb37d134a8e591e1faeb00b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/External/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Snowy_Cubemap_left.png using Guid(a9256522eb37d134a8e591e1faeb00b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36e6b00016a9e495619b86f866827b33') in 0.034364 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 68.794379 seconds.
+  path: Assets/Arts/Shaders Graph/materials/Water shader materilas.mat
+  artifactKey: Guid(2f5fcf35e4106cf4a8373eaad9d1803a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arts/Shaders Graph/materials/Water shader materilas.mat using Guid(2f5fcf35e4106cf4a8373eaad9d1803a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6020834e15b74281ad59145ede938bdc') in 0.029572 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003741 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image F:\Work\Unity Game Project\PirateKing\PirateKing\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image F:\Work\Unity Game Project\PirateKing\PirateKing\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.26 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.019 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1020ms)
+		BeginReloadAssembly (127ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (46ms)
+		EndReloadAssembly (808ms)
+			LoadAssemblies (71ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (237ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (392ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (70ms)
+				ProcessInitializeOnLoadAttributes (208ms)
+				ProcessInitializeOnLoadMethodAttributes (86ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5160 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (433.2 KB). Loaded Objects now: 6142.
+Memory consumption went from 227.0 MB to 226.6 MB.
+Total: 4.063300 ms (FindLiveObjects: 0.578600 ms CreateObjectMapping: 0.153500 ms MarkObjects: 3.045300 ms  DeleteObjects: 0.284800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 216.191869 seconds.
+  path: Assets/Arts/Shaders Graph/materials/Water shader materilas.mat
+  artifactKey: Guid(2f5fcf35e4106cf4a8373eaad9d1803a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arts/Shaders Graph/materials/Water shader materilas.mat using Guid(2f5fcf35e4106cf4a8373eaad9d1803a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '645d83c2b2f04a4d420d9a8d9f4c2039') in 0.212338 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 34.418155 seconds.
+  path: Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 1.prefab
+  artifactKey: Guid(7f4c78d871dcd104fbcbd14b2d76ae87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 1.prefab using Guid(7f4c78d871dcd104fbcbd14b2d76ae87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7ca0e1dbec39e87c62b25c70e79113b') in 0.098346 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 173.244350 seconds.
+  path: Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 1.prefab
+  artifactKey: Guid(7f4c78d871dcd104fbcbd14b2d76ae87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 1.prefab using Guid(7f4c78d871dcd104fbcbd14b2d76ae87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '723438b1abae40a5a549006c2d9f8b5b') in 0.123070 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 116.583010 seconds.
+  path: Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 2.prefab
+  artifactKey: Guid(dfd38684504a4ea47b5ae94f1e47a29b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 2.prefab using Guid(dfd38684504a4ea47b5ae94f1e47a29b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fc0bf2edf51db17ba7e77e0ff2a111e') in 0.129809 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.413846 seconds.
+  path: Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 3.prefab
+  artifactKey: Guid(7760c402f5ace94479acedcd6e0161d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 3.prefab using Guid(7760c402f5ace94479acedcd6e0161d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f89b19d30c09a5445827d0215dad5da2') in 0.102560 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.435184 seconds.
+  path: Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 4.prefab
+  artifactKey: Guid(1fd5a7073ac3b6146a0bf14d1bd4b30e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 4.prefab using Guid(1fd5a7073ac3b6146a0bf14d1bd4b30e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a176c5f0c15f1e0c34202a2deade81dc') in 0.105613 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.380389 seconds.
+  path: Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 5.prefab
+  artifactKey: Guid(bd2e810383a29964294372b7174d4743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 5.prefab using Guid(bd2e810383a29964294372b7174d4743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f6c0e19277f1646721ea09ab15fd89e') in 0.101320 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.502287 seconds.
+  path: Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 6.prefab
+  artifactKey: Guid(8a4d6674121410f49b45f8eb46974163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 6.prefab using Guid(8a4d6674121410f49b45f8eb46974163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63eac443c80b19419661b35fb8cfc5d9') in 0.103109 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.237706 seconds.
+  path: Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 7.prefab
+  artifactKey: Guid(22c5478f33c3c7144951b4f99d85ab3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 7.prefab using Guid(22c5478f33c3c7144951b4f99d85ab3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3da9af6faa6b985e786f10da3d7e1646') in 0.101013 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 33.529058 seconds.
+  path: Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 2.prefab
+  artifactKey: Guid(dfd38684504a4ea47b5ae94f1e47a29b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 2.prefab using Guid(dfd38684504a4ea47b5ae94f1e47a29b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95b925f879a5a6493fa012e1661a7bd1') in 0.115753 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.946505 seconds.
+  path: Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 2.prefab
+  artifactKey: Guid(dfd38684504a4ea47b5ae94f1e47a29b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 2.prefab using Guid(dfd38684504a4ea47b5ae94f1e47a29b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc4665fd7c42b6947854a94aecc3ef39') in 0.098869 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.315709 seconds.
+  path: Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 2.prefab
+  artifactKey: Guid(dfd38684504a4ea47b5ae94f1e47a29b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 2.prefab using Guid(dfd38684504a4ea47b5ae94f1e47a29b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f17236a4a33f20c20753660b1c6549e') in 0.111791 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.912272 seconds.
+  path: Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 2.prefab
+  artifactKey: Guid(dfd38684504a4ea47b5ae94f1e47a29b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 2.prefab using Guid(dfd38684504a4ea47b5ae94f1e47a29b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd04b8e2a6c3c00a2d76d972d9273301') in 0.102496 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.109886 seconds.
+  path: Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 2.prefab
+  artifactKey: Guid(dfd38684504a4ea47b5ae94f1e47a29b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 2.prefab using Guid(dfd38684504a4ea47b5ae94f1e47a29b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ade85176293176cb29a4c2bd1b7d5500') in 0.101129 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.907881 seconds.
+  path: Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 2.prefab
+  artifactKey: Guid(dfd38684504a4ea47b5ae94f1e47a29b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 2.prefab using Guid(dfd38684504a4ea47b5ae94f1e47a29b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39144f852dfe5052023024d896339a1f') in 0.100569 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.659541 seconds.
+  path: Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 2.prefab
+  artifactKey: Guid(dfd38684504a4ea47b5ae94f1e47a29b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 2.prefab using Guid(dfd38684504a4ea47b5ae94f1e47a29b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0f6dc73a78c26f500479a9fd24f396c') in 0.118181 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.654600 seconds.
+  path: Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 3.prefab
+  artifactKey: Guid(7760c402f5ace94479acedcd6e0161d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 3.prefab using Guid(7760c402f5ace94479acedcd6e0161d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b87ecce251a0f30e1b53287b2c70bfc') in 0.108956 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.558057 seconds.
+  path: Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 3.prefab
+  artifactKey: Guid(7760c402f5ace94479acedcd6e0161d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 3.prefab using Guid(7760c402f5ace94479acedcd6e0161d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23d4e5954ef03b90fd090a6f50e1ae12') in 0.116466 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.082614 seconds.
+  path: Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 3.prefab
+  artifactKey: Guid(7760c402f5ace94479acedcd6e0161d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 3.prefab using Guid(7760c402f5ace94479acedcd6e0161d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b9c32335d8e22f594724d464bd930df') in 0.104679 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.954632 seconds.
+  path: Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 3.prefab
+  artifactKey: Guid(7760c402f5ace94479acedcd6e0161d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 3.prefab using Guid(7760c402f5ace94479acedcd6e0161d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d0466e5069cc3c8f710fea28c8a22e3') in 0.102180 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.562381 seconds.
+  path: Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 3.prefab
+  artifactKey: Guid(7760c402f5ace94479acedcd6e0161d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 3.prefab using Guid(7760c402f5ace94479acedcd6e0161d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bf634b0995abecf6cb212ba90cdabd4') in 0.100723 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.929523 seconds.
+  path: Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 3.prefab
+  artifactKey: Guid(7760c402f5ace94479acedcd6e0161d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 3.prefab using Guid(7760c402f5ace94479acedcd6e0161d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cd38ecc2106c5bff4fc917afdc9ccc0') in 0.107023 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.917600 seconds.
+  path: Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 3.prefab
+  artifactKey: Guid(7760c402f5ace94479acedcd6e0161d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 3.prefab using Guid(7760c402f5ace94479acedcd6e0161d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fc1f035ba8f330718b882c72be32fba') in 0.105766 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.509214 seconds.
+  path: Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 3.prefab
+  artifactKey: Guid(7760c402f5ace94479acedcd6e0161d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 3.prefab using Guid(7760c402f5ace94479acedcd6e0161d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71c10fbfb57c7b07559814902af56fad') in 0.101380 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.993883 seconds.
+  path: Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 3.prefab
+  artifactKey: Guid(7760c402f5ace94479acedcd6e0161d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 3.prefab using Guid(7760c402f5ace94479acedcd6e0161d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b8c931e3d9d3a1ef974754bb1ec1335') in 0.100887 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.771063 seconds.
+  path: Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 3.prefab
+  artifactKey: Guid(7760c402f5ace94479acedcd6e0161d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 3.prefab using Guid(7760c402f5ace94479acedcd6e0161d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2fb48f2fade9a6943a2f7d7a031ccff') in 0.101535 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.389059 seconds.
+  path: Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 3.prefab
+  artifactKey: Guid(7760c402f5ace94479acedcd6e0161d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 3.prefab using Guid(7760c402f5ace94479acedcd6e0161d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '460577bb5826d355d9fe8652c6daf2dd') in 0.138780 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.775224 seconds.
+  path: Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 4.prefab
+  artifactKey: Guid(1fd5a7073ac3b6146a0bf14d1bd4b30e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 4.prefab using Guid(1fd5a7073ac3b6146a0bf14d1bd4b30e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8058aeb8f1882d3c6d73386a0b103d6') in 0.108686 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.407314 seconds.
+  path: Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 4.prefab
+  artifactKey: Guid(1fd5a7073ac3b6146a0bf14d1bd4b30e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 4.prefab using Guid(1fd5a7073ac3b6146a0bf14d1bd4b30e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c9142abaad749b81a849ed64c1dbc28') in 0.098397 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.903660 seconds.
+  path: Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 4.prefab
+  artifactKey: Guid(1fd5a7073ac3b6146a0bf14d1bd4b30e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 4.prefab using Guid(1fd5a7073ac3b6146a0bf14d1bd4b30e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '865bd7e9a88b21ff3d8b3be4600fd345') in 0.107781 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.493875 seconds.
+  path: Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 4.prefab
+  artifactKey: Guid(1fd5a7073ac3b6146a0bf14d1bd4b30e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 4.prefab using Guid(1fd5a7073ac3b6146a0bf14d1bd4b30e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fd824a1f0da25120094342b51eb2270') in 0.109513 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.525222 seconds.
+  path: Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 4.prefab
+  artifactKey: Guid(1fd5a7073ac3b6146a0bf14d1bd4b30e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 4.prefab using Guid(1fd5a7073ac3b6146a0bf14d1bd4b30e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4915f4d8653b98170f48080fdcdfc4e5') in 0.108200 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.511838 seconds.
+  path: Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 4.prefab
+  artifactKey: Guid(1fd5a7073ac3b6146a0bf14d1bd4b30e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 4.prefab using Guid(1fd5a7073ac3b6146a0bf14d1bd4b30e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12d382268b6a95538eca43408a281e7a') in 0.112671 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.173604 seconds.
+  path: Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 4.prefab
+  artifactKey: Guid(1fd5a7073ac3b6146a0bf14d1bd4b30e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 4.prefab using Guid(1fd5a7073ac3b6146a0bf14d1bd4b30e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '009fec6a1d079310b90b6748a9773dc3') in 0.105028 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.396836 seconds.
+  path: Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 5.prefab
+  artifactKey: Guid(bd2e810383a29964294372b7174d4743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 5.prefab using Guid(bd2e810383a29964294372b7174d4743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '536149d28398da8c536f872e27e4e84a') in 0.105987 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.727616 seconds.
+  path: Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 5.prefab
+  artifactKey: Guid(bd2e810383a29964294372b7174d4743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 5.prefab using Guid(bd2e810383a29964294372b7174d4743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48c5f51a199db34d52dcc41f8bc6d59c') in 0.106898 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.509925 seconds.
+  path: Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 5.prefab
+  artifactKey: Guid(bd2e810383a29964294372b7174d4743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 5.prefab using Guid(bd2e810383a29964294372b7174d4743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51b3ce8a893fccfc443061409ef3bf0d') in 0.103201 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.529888 seconds.
+  path: Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 5.prefab
+  artifactKey: Guid(bd2e810383a29964294372b7174d4743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 5.prefab using Guid(bd2e810383a29964294372b7174d4743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9ef15d664fdc62e16f09f4e6ec522dd') in 0.106558 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.298810 seconds.
+  path: Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 5.prefab
+  artifactKey: Guid(bd2e810383a29964294372b7174d4743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 5.prefab using Guid(bd2e810383a29964294372b7174d4743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd299d84644b83227bd0961cb64a960ec') in 0.108049 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.521123 seconds.
+  path: Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 5.prefab
+  artifactKey: Guid(bd2e810383a29964294372b7174d4743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 5.prefab using Guid(bd2e810383a29964294372b7174d4743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e06bebc47a87e1240b8e0ae477ea716f') in 0.107727 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.708315 seconds.
+  path: Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 5.prefab
+  artifactKey: Guid(bd2e810383a29964294372b7174d4743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 5.prefab using Guid(bd2e810383a29964294372b7174d4743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb1c1a330efc8413862078d447a9b521') in 0.111957 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.719894 seconds.
+  path: Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 5.prefab
+  artifactKey: Guid(bd2e810383a29964294372b7174d4743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 5.prefab using Guid(bd2e810383a29964294372b7174d4743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e6181d887312c7b6aec27a3847a34b9') in 0.099291 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.014756 seconds.
+  path: Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 6.prefab
+  artifactKey: Guid(8a4d6674121410f49b45f8eb46974163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 6.prefab using Guid(8a4d6674121410f49b45f8eb46974163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ab6bde4402bb532a19970aa8531a999') in 0.109627 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.356824 seconds.
+  path: Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 6.prefab
+  artifactKey: Guid(8a4d6674121410f49b45f8eb46974163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 6.prefab using Guid(8a4d6674121410f49b45f8eb46974163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3247fa9577b7064fca899871a7f4296') in 0.107204 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.127306 seconds.
+  path: Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 6.prefab
+  artifactKey: Guid(8a4d6674121410f49b45f8eb46974163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 6.prefab using Guid(8a4d6674121410f49b45f8eb46974163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '470d379c7fe0260f2b8f871e0e074dc0') in 0.110331 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.726860 seconds.
+  path: Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 6.prefab
+  artifactKey: Guid(8a4d6674121410f49b45f8eb46974163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 6.prefab using Guid(8a4d6674121410f49b45f8eb46974163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16468262c349c664ef84d59e22b541d4') in 0.108684 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.533944 seconds.
+  path: Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 6.prefab
+  artifactKey: Guid(8a4d6674121410f49b45f8eb46974163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 6.prefab using Guid(8a4d6674121410f49b45f8eb46974163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea02b69df709da26d1caa02d7e984216') in 0.114666 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.996585 seconds.
+  path: Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 6.prefab
+  artifactKey: Guid(8a4d6674121410f49b45f8eb46974163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 6.prefab using Guid(8a4d6674121410f49b45f8eb46974163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b31319567820ae39a33a3163f1f2b4b8') in 0.114842 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.055264 seconds.
+  path: Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 7.prefab
+  artifactKey: Guid(22c5478f33c3c7144951b4f99d85ab3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 7.prefab using Guid(22c5478f33c3c7144951b4f99d85ab3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c4674c95d003a627e16db8494560509') in 0.108034 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.725833 seconds.
+  path: Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 7.prefab
+  artifactKey: Guid(22c5478f33c3c7144951b4f99d85ab3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 7.prefab using Guid(22c5478f33c3c7144951b4f99d85ab3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdbdcde570cf34b1f54c889d40418b80') in 0.101507 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.954091 seconds.
+  path: Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 7.prefab
+  artifactKey: Guid(22c5478f33c3c7144951b4f99d85ab3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 7.prefab using Guid(22c5478f33c3c7144951b4f99d85ab3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47894106816ca181a708493d392d1c87') in 0.101851 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.902847 seconds.
+  path: Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 7.prefab
+  artifactKey: Guid(22c5478f33c3c7144951b4f99d85ab3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 7.prefab using Guid(22c5478f33c3c7144951b4f99d85ab3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4a70a20ef5bcae8718a6c32a60a231e') in 0.102500 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.712434 seconds.
+  path: Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 7.prefab
+  artifactKey: Guid(22c5478f33c3c7144951b4f99d85ab3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 7.prefab using Guid(22c5478f33c3c7144951b4f99d85ab3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '377649c8c65637e84a536242d00c4651') in 0.109154 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.952911 seconds.
+  path: Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 7.prefab
+  artifactKey: Guid(22c5478f33c3c7144951b4f99d85ab3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 7.prefab using Guid(22c5478f33c3c7144951b4f99d85ab3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93ee5d26f9b913e4a3ee1475061a7eb6') in 0.092547 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.583525 seconds.
+  path: Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 7.prefab
+  artifactKey: Guid(22c5478f33c3c7144951b4f99d85ab3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 7.prefab using Guid(22c5478f33c3c7144951b4f99d85ab3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8b9b62e64d47ff7788de04fd4cdd35d') in 0.107538 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.781622 seconds.
+  path: Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 7.prefab
+  artifactKey: Guid(22c5478f33c3c7144951b4f99d85ab3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 7.prefab using Guid(22c5478f33c3c7144951b4f99d85ab3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eebe1e22e013b7ffef8ec25f9ee2c34') in 0.105242 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.102574 seconds.
+  path: Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 7.prefab
+  artifactKey: Guid(22c5478f33c3c7144951b4f99d85ab3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 7.prefab using Guid(22c5478f33c3c7144951b4f99d85ab3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8afb453d7f48d28a4c9590955d9eef1') in 0.105094 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.709623 seconds.
+  path: Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 7.prefab
+  artifactKey: Guid(22c5478f33c3c7144951b4f99d85ab3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 7.prefab using Guid(22c5478f33c3c7144951b4f99d85ab3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '321de8fab43f1dd31f2fae901ee6893c') in 0.105899 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.797338 seconds.
+  path: Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 7.prefab
+  artifactKey: Guid(22c5478f33c3c7144951b4f99d85ab3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 7.prefab using Guid(22c5478f33c3c7144951b4f99d85ab3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc34800f504a9bd915605718e22a38f4') in 0.104611 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 26.843483 seconds.
+  path: Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 2.prefab
+  artifactKey: Guid(dfd38684504a4ea47b5ae94f1e47a29b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 2.prefab using Guid(dfd38684504a4ea47b5ae94f1e47a29b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc1efa6a41010cbc68ee4995ffb45dff') in 0.107863 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.527795 seconds.
+  path: Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 2.prefab
+  artifactKey: Guid(dfd38684504a4ea47b5ae94f1e47a29b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 2.prefab using Guid(dfd38684504a4ea47b5ae94f1e47a29b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b473c7527d64a305343b2d240001a9c') in 0.122073 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.384175 seconds.
+  path: Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 2.prefab
+  artifactKey: Guid(dfd38684504a4ea47b5ae94f1e47a29b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 2.prefab using Guid(dfd38684504a4ea47b5ae94f1e47a29b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd3d43a67fa6bc3fb3dfad0d35d2866f') in 0.111902 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.030229 seconds.
+  path: Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 2.prefab
+  artifactKey: Guid(dfd38684504a4ea47b5ae94f1e47a29b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 2.prefab using Guid(dfd38684504a4ea47b5ae94f1e47a29b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41c904509866e786e9bb4f2cf04351bb') in 0.122613 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.387676 seconds.
+  path: Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 3.prefab
+  artifactKey: Guid(7760c402f5ace94479acedcd6e0161d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 3.prefab using Guid(7760c402f5ace94479acedcd6e0161d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce9b8282db5a088d364667e9f8d91e68') in 0.121254 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.466690 seconds.
+  path: Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 3.prefab
+  artifactKey: Guid(7760c402f5ace94479acedcd6e0161d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 3.prefab using Guid(7760c402f5ace94479acedcd6e0161d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74e8745a014b285322913028369ebdc6') in 0.135800 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.287963 seconds.
+  path: Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 3.prefab
+  artifactKey: Guid(7760c402f5ace94479acedcd6e0161d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 3.prefab using Guid(7760c402f5ace94479acedcd6e0161d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79569bfd131c91645825dcb6a6e76453') in 0.120892 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.985133 seconds.
+  path: Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 3.prefab
+  artifactKey: Guid(7760c402f5ace94479acedcd6e0161d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 3.prefab using Guid(7760c402f5ace94479acedcd6e0161d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aba460a67179539e7f15cd0b324413fe') in 0.111980 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.049636 seconds.
+  path: Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 3.prefab
+  artifactKey: Guid(7760c402f5ace94479acedcd6e0161d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 3.prefab using Guid(7760c402f5ace94479acedcd6e0161d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31978bf98d6f1ea6f66d7ec41e60787c') in 0.116091 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.852310 seconds.
+  path: Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 3.prefab
+  artifactKey: Guid(7760c402f5ace94479acedcd6e0161d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 3.prefab using Guid(7760c402f5ace94479acedcd6e0161d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df89b414197e3a896ebd37a9b331c696') in 0.110201 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.878403 seconds.
+  path: Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 5.prefab
+  artifactKey: Guid(bd2e810383a29964294372b7174d4743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 5.prefab using Guid(bd2e810383a29964294372b7174d4743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43ac37781b1364fbd33afdca4c35ba04') in 0.110298 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.122279 seconds.
+  path: Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 5.prefab
+  artifactKey: Guid(bd2e810383a29964294372b7174d4743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 5.prefab using Guid(bd2e810383a29964294372b7174d4743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7e911c929794bf79d687c2aff5421bc') in 0.110418 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.622190 seconds.
+  path: Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 5.prefab
+  artifactKey: Guid(bd2e810383a29964294372b7174d4743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 5.prefab using Guid(bd2e810383a29964294372b7174d4743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92432117f3d165b732ad1d925d8f53eb') in 0.110746 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.363800 seconds.
+  path: Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 5.prefab
+  artifactKey: Guid(bd2e810383a29964294372b7174d4743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 5.prefab using Guid(bd2e810383a29964294372b7174d4743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1378030ee0f7b71fe32a8d66cf2be2c6') in 0.121802 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.679355 seconds.
+  path: Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 4.prefab
+  artifactKey: Guid(1fd5a7073ac3b6146a0bf14d1bd4b30e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 4.prefab using Guid(1fd5a7073ac3b6146a0bf14d1bd4b30e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df397291e35fa3503d37b5261a774952') in 0.111541 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.173529 seconds.
+  path: Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 4.prefab
+  artifactKey: Guid(1fd5a7073ac3b6146a0bf14d1bd4b30e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 4.prefab using Guid(1fd5a7073ac3b6146a0bf14d1bd4b30e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96b5d837080ca218de27c480ae7236c9') in 0.108495 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.983658 seconds.
+  path: Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 4.prefab
+  artifactKey: Guid(1fd5a7073ac3b6146a0bf14d1bd4b30e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 4.prefab using Guid(1fd5a7073ac3b6146a0bf14d1bd4b30e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d876bb2f5653076d0968bfeb1da9ba0') in 0.106982 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.231220 seconds.
+  path: Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 4.prefab
+  artifactKey: Guid(1fd5a7073ac3b6146a0bf14d1bd4b30e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 4.prefab using Guid(1fd5a7073ac3b6146a0bf14d1bd4b30e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e157bfb9a0b88e4dc875f1ced3611a70') in 0.115884 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.234932 seconds.
+  path: Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 6.prefab
+  artifactKey: Guid(8a4d6674121410f49b45f8eb46974163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 6.prefab using Guid(8a4d6674121410f49b45f8eb46974163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78e70fbe193ce9919ea7a2a28e281640') in 0.108704 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.009256 seconds.
+  path: Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 6.prefab
+  artifactKey: Guid(8a4d6674121410f49b45f8eb46974163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 6.prefab using Guid(8a4d6674121410f49b45f8eb46974163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0ff8d19b0a0a3cc63730a5ff10350a6') in 0.112992 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.113755 seconds.
+  path: Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 6.prefab
+  artifactKey: Guid(8a4d6674121410f49b45f8eb46974163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 6.prefab using Guid(8a4d6674121410f49b45f8eb46974163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '503c72363048367065128f52e758c215') in 0.116209 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.862481 seconds.
+  path: Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 6.prefab
+  artifactKey: Guid(8a4d6674121410f49b45f8eb46974163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 6.prefab using Guid(8a4d6674121410f49b45f8eb46974163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb68170a8056abf2d2a4e6e5ca991359') in 0.108464 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.341827 seconds.
+  path: Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 7.prefab
+  artifactKey: Guid(22c5478f33c3c7144951b4f99d85ab3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 7.prefab using Guid(22c5478f33c3c7144951b4f99d85ab3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8b69d1a2e88574b212e9b0791fa1792') in 0.110216 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.586222 seconds.
+  path: Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 7.prefab
+  artifactKey: Guid(22c5478f33c3c7144951b4f99d85ab3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 7.prefab using Guid(22c5478f33c3c7144951b4f99d85ab3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5fc89e09e579e2eda967d52caa34e59') in 0.110307 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.155810 seconds.
+  path: Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 7.prefab
+  artifactKey: Guid(22c5478f33c3c7144951b4f99d85ab3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 7.prefab using Guid(22c5478f33c3c7144951b4f99d85ab3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a973f9db6911ea0ec222a3df95b8503') in 0.108255 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.541611 seconds.
+  path: Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 7.prefab
+  artifactKey: Guid(22c5478f33c3c7144951b4f99d85ab3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 7.prefab using Guid(22c5478f33c3c7144951b4f99d85ab3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbad82b0de8753976dc9fb0423b94c29') in 0.123315 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.724983 seconds.
+  path: Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 7.prefab
+  artifactKey: Guid(22c5478f33c3c7144951b4f99d85ab3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 7.prefab using Guid(22c5478f33c3c7144951b4f99d85ab3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7ea48f3870004f07ce7aa93de5c3d41') in 0.112861 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 30.785259 seconds.
+  path: Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 7.prefab
+  artifactKey: Guid(22c5478f33c3c7144951b4f99d85ab3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 7.prefab using Guid(22c5478f33c3c7144951b4f99d85ab3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84157fbd72131d6475421551ed9dee21') in 0.098935 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.386106 seconds.
+  path: Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 7.prefab
+  artifactKey: Guid(22c5478f33c3c7144951b4f99d85ab3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 7.prefab using Guid(22c5478f33c3c7144951b4f99d85ab3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ef03bc0686f06f082ae59321f032c69') in 0.101477 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.790413 seconds.
+  path: Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 7.prefab
+  artifactKey: Guid(22c5478f33c3c7144951b4f99d85ab3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 7.prefab using Guid(22c5478f33c3c7144951b4f99d85ab3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0d77ef9b8a0a74bfd8a1de8e1f9afb0') in 0.100702 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 28.504287 seconds.
+  path: Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 6.prefab
+  artifactKey: Guid(8a4d6674121410f49b45f8eb46974163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 6.prefab using Guid(8a4d6674121410f49b45f8eb46974163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70a193eebcf30e35878361be17dd7259') in 0.101151 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.964797 seconds.
+  path: Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 1.prefab
+  artifactKey: Guid(7f4c78d871dcd104fbcbd14b2d76ae87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 1.prefab using Guid(7f4c78d871dcd104fbcbd14b2d76ae87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d364a488e8a1aa2d542110b2605213e') in 0.102576 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.883706 seconds.
+  path: Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 6.prefab
+  artifactKey: Guid(8a4d6674121410f49b45f8eb46974163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 6.prefab using Guid(8a4d6674121410f49b45f8eb46974163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a43b851f05dee54eb9eb911ea8c1f52a') in 0.095016 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 36.957788 seconds.
+  path: Assets/ShipControlGame/Prefab/Green Boats 1
+  artifactKey: Guid(55815d325a9c73a49bf6f0a32d015abd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/Green Boats 1 using Guid(55815d325a9c73a49bf6f0a32d015abd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbeab91af7f46deede9575346f987503') in 0.001838 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.419710 seconds.
+  path: Assets/ShipControlGame/Prefab/Red Boats
+  artifactKey: Guid(55815d325a9c73a49bf6f0a32d015abd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/Red Boats using Guid(55815d325a9c73a49bf6f0a32d015abd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '548b05cdb92be3477e8d3f39fec7c04a') in 0.001910 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.417472 seconds.
+  path: Assets/ShipControlGame/Prefab/Red Boats 1
+  artifactKey: Guid(6d08d8ba285919e45827569012f2cc6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/Red Boats 1 using Guid(6d08d8ba285919e45827569012f2cc6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85bb084633325343155c88b5d992b476') in 0.001849 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.291924 seconds.
+  path: Assets/ShipControlGame/Prefab/Yellow boat
+  artifactKey: Guid(6d08d8ba285919e45827569012f2cc6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/Yellow boat using Guid(6d08d8ba285919e45827569012f2cc6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dfa4acbc2af9a34bbd679c9077b2b97') in 0.005236 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.186687 seconds.
+  path: Assets/ShipControlGame/Prefab/Red Boats/GreenBoat 1.prefab
+  artifactKey: Guid(d45c3b4f34ee2c749aa076ec50fc327b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/Red Boats/GreenBoat 1.prefab using Guid(d45c3b4f34ee2c749aa076ec50fc327b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f3934feddf7e0915fae3abd6955e569') in 0.128926 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/ShipControlGame/Prefab/Red Boats/GreenBoat 5.prefab
+  artifactKey: Guid(d820c15f695b20242ba50f59d7f138a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/Red Boats/GreenBoat 5.prefab using Guid(d820c15f695b20242ba50f59d7f138a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17899fc659e7bbb70fb46135775a5ade') in 0.146636 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/ShipControlGame/Prefab/Red Boats/GreenBoat 7.prefab
+  artifactKey: Guid(5fe78ea5bc031044e9ba724f87ad0152) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/Red Boats/GreenBoat 7.prefab using Guid(5fe78ea5bc031044e9ba724f87ad0152) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9e06b6f9701b0fcc09bf61c9cc6b0f6') in 0.139347 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/ShipControlGame/Prefab/Red Boats/GreenBoat 3.prefab
+  artifactKey: Guid(3fa1811c4889b984cba0141f6483c051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/Red Boats/GreenBoat 3.prefab using Guid(3fa1811c4889b984cba0141f6483c051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b85ef12eef6a466d1b703fd4a284e034') in 0.104679 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 61.066559 seconds.
+  path: Assets/ShipControlGame/Prefab/Red Boats/GreenBoat 1.prefab
+  artifactKey: Guid(d45c3b4f34ee2c749aa076ec50fc327b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/Red Boats/GreenBoat 1.prefab using Guid(d45c3b4f34ee2c749aa076ec50fc327b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3bf386650c55d6ec4c8a1f9937e7305') in 0.104707 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.431788 seconds.
+  path: Assets/ShipControlGame/Prefab/Red Boats/GreenBoat 2.prefab
+  artifactKey: Guid(78ccc5e2f896f174db3835e58bdf9578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/Red Boats/GreenBoat 2.prefab using Guid(78ccc5e2f896f174db3835e58bdf9578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e452ce331b26bcb86b8ebc3de08f465') in 0.102256 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.140956 seconds.
+  path: Assets/ShipControlGame/Prefab/Red Boats/GreenBoat 3.prefab
+  artifactKey: Guid(3fa1811c4889b984cba0141f6483c051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/Red Boats/GreenBoat 3.prefab using Guid(3fa1811c4889b984cba0141f6483c051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '850e53d0b9a9831af20d8b7d5139205f') in 0.100077 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.799364 seconds.
+  path: Assets/ShipControlGame/Prefab/Red Boats/GreenBoat 3.prefab
+  artifactKey: Guid(3fa1811c4889b984cba0141f6483c051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/Red Boats/GreenBoat 3.prefab using Guid(3fa1811c4889b984cba0141f6483c051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b6717a5f4a1cd25e0af882026cfa284') in 0.098176 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.658268 seconds.
+  path: Assets/ShipControlGame/Prefab/Red Boats/GreenBoat 4.prefab
+  artifactKey: Guid(adde0084a0b94a54d96c0be75af2cf96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/Red Boats/GreenBoat 4.prefab using Guid(adde0084a0b94a54d96c0be75af2cf96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44b9e2986412bd915f2feaf67d930297') in 0.098786 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.250574 seconds.
+  path: Assets/ShipControlGame/Prefab/Red Boats/GreenBoat 5.prefab
+  artifactKey: Guid(d820c15f695b20242ba50f59d7f138a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/Red Boats/GreenBoat 5.prefab using Guid(d820c15f695b20242ba50f59d7f138a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dc1d98eaf2eb3fe08801143c9124ece') in 0.102387 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.009767 seconds.
+  path: Assets/ShipControlGame/Prefab/Red Boats/GreenBoat 6.prefab
+  artifactKey: Guid(5dbf46e3fac9b164ba2e9dc7cb422b0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/Red Boats/GreenBoat 6.prefab using Guid(5dbf46e3fac9b164ba2e9dc7cb422b0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '266dc849ee0e11d0b6275588e0a97da2') in 0.100705 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.408218 seconds.
+  path: Assets/ShipControlGame/Prefab/Red Boats/GreenBoat 7.prefab
+  artifactKey: Guid(5fe78ea5bc031044e9ba724f87ad0152) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/Red Boats/GreenBoat 7.prefab using Guid(5fe78ea5bc031044e9ba724f87ad0152) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ed5e6ccd0d34869bc06907942a45da1') in 0.101458 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.666040 seconds.
+  path: Assets/ShipControlGame/Prefab/Red Boats/GreenBoat 1.prefab
+  artifactKey: Guid(d45c3b4f34ee2c749aa076ec50fc327b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/Red Boats/GreenBoat 1.prefab using Guid(d45c3b4f34ee2c749aa076ec50fc327b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a990033c751437de58743c3a67c5cf4c') in 0.104438 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/ShipControlGame/Prefab/Red Boats/GreenBoat 5.prefab
+  artifactKey: Guid(d820c15f695b20242ba50f59d7f138a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/Red Boats/GreenBoat 5.prefab using Guid(d820c15f695b20242ba50f59d7f138a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e37df33a0b41e4f0e74b741a120c517') in 0.107549 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/ShipControlGame/Prefab/Red Boats/GreenBoat 6.prefab
+  artifactKey: Guid(5dbf46e3fac9b164ba2e9dc7cb422b0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/Red Boats/GreenBoat 6.prefab using Guid(5dbf46e3fac9b164ba2e9dc7cb422b0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c81457a67ac26b4476bcb7cbe6c1c332') in 0.118461 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ShipControlGame/Prefab/Red Boats/GreenBoat 7.prefab
+  artifactKey: Guid(5fe78ea5bc031044e9ba724f87ad0152) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/Red Boats/GreenBoat 7.prefab using Guid(5fe78ea5bc031044e9ba724f87ad0152) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4c22eca49266cb931e21aa74b0b85b0') in 0.114337 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/ShipControlGame/Prefab/Red Boats/GreenBoat 3.prefab
+  artifactKey: Guid(3fa1811c4889b984cba0141f6483c051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/Red Boats/GreenBoat 3.prefab using Guid(3fa1811c4889b984cba0141f6483c051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5e8afca8aaa6a8795fdcb71e65cfccb') in 0.117723 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.906984 seconds.
+  path: Assets/ShipControlGame/Prefab/Yellow boat/GreenBoat 1.prefab
+  artifactKey: Guid(a3582172a2a904549a6e563ac2435527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/Yellow boat/GreenBoat 1.prefab using Guid(a3582172a2a904549a6e563ac2435527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63c63c3160dccc203c4422e3b5da86c2') in 0.127618 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ShipControlGame/Prefab/Yellow boat/GreenBoat 5.prefab
+  artifactKey: Guid(be3068667f0f9344ca360dd1bf452991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/Yellow boat/GreenBoat 5.prefab using Guid(be3068667f0f9344ca360dd1bf452991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2afa8a0da4b91345287c7979271fc75') in 0.101197 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/ShipControlGame/Prefab/Yellow boat/GreenBoat 6.prefab
+  artifactKey: Guid(92581ae39c9aca74ca30ba1b31cdd2a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/Yellow boat/GreenBoat 6.prefab using Guid(92581ae39c9aca74ca30ba1b31cdd2a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f20a41886da27fcbe2d7a8950ada6ddb') in 0.122479 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 37.981427 seconds.
+  path: Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 1.prefab
+  artifactKey: Guid(7f4c78d871dcd104fbcbd14b2d76ae87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 1.prefab using Guid(7f4c78d871dcd104fbcbd14b2d76ae87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15195c016fd4e1a3f70cac3e6be0b169') in 0.116223 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 4.prefab
+  artifactKey: Guid(1fd5a7073ac3b6146a0bf14d1bd4b30e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 4.prefab using Guid(1fd5a7073ac3b6146a0bf14d1bd4b30e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d1925f5844167b4d5a555b274ea1750') in 0.106116 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 6.prefab
+  artifactKey: Guid(8a4d6674121410f49b45f8eb46974163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 6.prefab using Guid(8a4d6674121410f49b45f8eb46974163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a943525f0d6f60d0d479ff1c439941e') in 0.113649 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.415708 seconds.
+  path: Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 3.prefab
+  artifactKey: Guid(7760c402f5ace94479acedcd6e0161d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/Green Boats/GreenBoat 3.prefab using Guid(7760c402f5ace94479acedcd6e0161d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e466639117fc4831bd98eea14f814715') in 0.100138 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 37.499418 seconds.
+  path: Assets/ShipControlGame/Prefab/Yellow boat/GreenBoat 3.prefab
+  artifactKey: Guid(a13885e9d15a06842a075ff5ba6ca67c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/Yellow boat/GreenBoat 3.prefab using Guid(a13885e9d15a06842a075ff5ba6ca67c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1475a273279db61a0232bce373408c2c') in 0.087279 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.006709 seconds.
+  path: Assets/ShipControlGame/Prefab/Yellow boat/GreenBoat 3.prefab
+  artifactKey: Guid(a13885e9d15a06842a075ff5ba6ca67c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/Yellow boat/GreenBoat 3.prefab using Guid(a13885e9d15a06842a075ff5ba6ca67c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43e483429a56b397d2185f8b59d05076') in 0.118548 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.050602 seconds.
+  path: Assets/ShipControlGame/Prefab/Yellow boat/GreenBoat 1.prefab
+  artifactKey: Guid(a3582172a2a904549a6e563ac2435527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/Yellow boat/GreenBoat 1.prefab using Guid(a3582172a2a904549a6e563ac2435527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ca6ef6dee2b22486ac2b939ed5f3815') in 0.099379 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.315699 seconds.
+  path: Assets/ShipControlGame/Prefab/Yellow boat/GreenBoat 2.prefab
+  artifactKey: Guid(7c29a7f3f1b5f3644be19a86db4370c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/Yellow boat/GreenBoat 2.prefab using Guid(7c29a7f3f1b5f3644be19a86db4370c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1501914ca21da1ac74a3a751f2e677b') in 0.099492 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.112631 seconds.
+  path: Assets/ShipControlGame/Prefab/Yellow boat/GreenBoat 4.prefab
+  artifactKey: Guid(5df2808c728b3b74ba93653acc527e83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/Yellow boat/GreenBoat 4.prefab using Guid(5df2808c728b3b74ba93653acc527e83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34069e20fbf133bd9d2fca283bd788d2') in 0.099894 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.483055 seconds.
+  path: Assets/ShipControlGame/Prefab/Yellow boat/GreenBoat 5.prefab
+  artifactKey: Guid(be3068667f0f9344ca360dd1bf452991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/Yellow boat/GreenBoat 5.prefab using Guid(be3068667f0f9344ca360dd1bf452991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a68d400a47a8d68fe3119dfa90e8b32c') in 0.100909 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.941176 seconds.
+  path: Assets/ShipControlGame/Prefab/Yellow boat/GreenBoat 6.prefab
+  artifactKey: Guid(92581ae39c9aca74ca30ba1b31cdd2a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/Yellow boat/GreenBoat 6.prefab using Guid(92581ae39c9aca74ca30ba1b31cdd2a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '963b11b657db344c76714e5a6fe1cdd3') in 0.099990 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.013770 seconds.
+  path: Assets/ShipControlGame/Prefab/Yellow boat/GreenBoat 7.prefab
+  artifactKey: Guid(4741ca37eb13325459062854d69b2e57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/Yellow boat/GreenBoat 7.prefab using Guid(4741ca37eb13325459062854d69b2e57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cca2244e3449dd2851c0a23bd310632') in 0.100697 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.322420 seconds.
+  path: Assets/ShipControlGame/Prefab/Yellow boat/GreenBoat 1.prefab
+  artifactKey: Guid(a3582172a2a904549a6e563ac2435527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/Yellow boat/GreenBoat 1.prefab using Guid(a3582172a2a904549a6e563ac2435527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5db51ef85fc6c9406905d5bf9a1b287') in 0.108013 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/ShipControlGame/Prefab/Yellow boat/GreenBoat 3.prefab
+  artifactKey: Guid(a13885e9d15a06842a075ff5ba6ca67c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/Yellow boat/GreenBoat 3.prefab using Guid(a13885e9d15a06842a075ff5ba6ca67c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26ca72caa096e6d0d5c3cd5c9f97b2f4') in 0.124534 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/ShipControlGame/Prefab/Yellow boat/GreenBoat 5.prefab
+  artifactKey: Guid(be3068667f0f9344ca360dd1bf452991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/Yellow boat/GreenBoat 5.prefab using Guid(be3068667f0f9344ca360dd1bf452991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba43723ca1ce89c4fe8fe205f4d4d544') in 0.122028 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/ShipControlGame/Prefab/Yellow boat/GreenBoat 6.prefab
+  artifactKey: Guid(92581ae39c9aca74ca30ba1b31cdd2a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShipControlGame/Prefab/Yellow boat/GreenBoat 6.prefab using Guid(92581ae39c9aca74ca30ba1b31cdd2a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60fb35865955675847ada630a0a648cd') in 0.111929 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003795 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image F:\Work\Unity Game Project\PirateKing\PirateKing\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image F:\Work\Unity Game Project\PirateKing\PirateKing\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.11 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.063 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1064ms)
+		BeginReloadAssembly (151ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (54ms)
+		EndReloadAssembly (824ms)
+			LoadAssemblies (77ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (240ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (391ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (79ms)
+				ProcessInitializeOnLoadAttributes (211ms)
+				ProcessInitializeOnLoadMethodAttributes (73ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.20 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5160 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (433.2 KB). Loaded Objects now: 6325.
+Memory consumption went from 228.3 MB to 227.9 MB.
+Total: 3.934800 ms (FindLiveObjects: 0.573800 ms CreateObjectMapping: 0.146200 ms MarkObjects: 2.948400 ms  DeleteObjects: 0.265300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006013 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image F:\Work\Unity Game Project\PirateKing\PirateKing\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image F:\Work\Unity Game Project\PirateKing\PirateKing\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.99 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.047 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1048ms)
+		BeginReloadAssembly (135ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (45ms)
+		EndReloadAssembly (825ms)
+			LoadAssemblies (85ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (240ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (391ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (71ms)
+				ProcessInitializeOnLoadAttributes (206ms)
+				ProcessInitializeOnLoadMethodAttributes (81ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5160 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (425.6 KB). Loaded Objects now: 6340.
+Memory consumption went from 228.2 MB to 227.8 MB.
+Total: 4.268200 ms (FindLiveObjects: 0.715400 ms CreateObjectMapping: 0.162400 ms MarkObjects: 3.053500 ms  DeleteObjects: 0.335000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003788 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image F:\Work\Unity Game Project\PirateKing\PirateKing\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image F:\Work\Unity Game Project\PirateKing\PirateKing\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.04 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.980 seconds
+Domain Reload Profiling:
+	ReloadAssembly (981ms)
+		BeginReloadAssembly (121ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (771ms)
+			LoadAssemblies (73ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (231ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (364ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (69ms)
+				ProcessInitializeOnLoadAttributes (199ms)
+				ProcessInitializeOnLoadMethodAttributes (68ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.04 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5160 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (425.3 KB). Loaded Objects now: 6355.
+Memory consumption went from 228.2 MB to 227.8 MB.
+Total: 3.949600 ms (FindLiveObjects: 0.625600 ms CreateObjectMapping: 0.146100 ms MarkObjects: 2.883200 ms  DeleteObjects: 0.293300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

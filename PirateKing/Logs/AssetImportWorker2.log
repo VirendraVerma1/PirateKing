@@ -1,0 +1,238 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.2f1 (d6360bedb9a0) revision 14038539'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Enterprise' Language: 'en' Physical Memory: 16329 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.2f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+F:/Work/Unity Game Project/PirateKing/PirateKing
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+51402
+Successfully changed project path to: F:/Work/Unity Game Project/PirateKing/PirateKing
+F:/Work/Unity Game Project/PirateKing/PirateKing
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 94.25 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.2f1 (d6360bedb9a0)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path F:/Work/Unity Game Project/PirateKing/PirateKing/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GT 710 (ID=0x128b)
+    Vendor:   NVIDIA
+    VRAM:     2007 MB
+    Driver:   30.0.14.7381
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56368
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007227 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 97.11 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.560 seconds
+Domain Reload Profiling:
+	ReloadAssembly (561ms)
+		BeginReloadAssembly (59ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (407ms)
+			LoadAssemblies (57ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (89ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (22ms)
+			SetupLoadedEditorAssemblies (254ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (47ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (97ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (74ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003903 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image F:\Work\Unity Game Project\PirateKing\PirateKing\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image F:\Work\Unity Game Project\PirateKing\PirateKing\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 116.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.239 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1240ms)
+		BeginReloadAssembly (212ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (135ms)
+		EndReloadAssembly (923ms)
+			LoadAssemblies (76ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (237ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (522ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (117ms)
+				BeforeProcessingInitializeOnLoad (106ms)
+				ProcessInitializeOnLoadAttributes (213ms)
+				ProcessInitializeOnLoadMethodAttributes (68ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 1.20 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5345 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 45 unused Assets / (457.3 KB). Loaded Objects now: 5816.
+Memory consumption went from 234.0 MB to 233.6 MB.
+Total: 4.196700 ms (FindLiveObjects: 0.580200 ms CreateObjectMapping: 0.158300 ms MarkObjects: 3.128400 ms  DeleteObjects: 0.328000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 345839.456278 seconds.
+  path: Assets/Arts/maya files/ships for export.mb
+  artifactKey: Guid(1e5f385601b77e145ad593d2a84c7d03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arts/maya files/ships for export.mb using Guid(1e5f385601b77e145ad593d2a84c7d03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bff34084b55ac0746496d35859aeddf3') in 0.768271 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 45.118258 seconds.
+  path: Assets/Arts/Fbx models/bevel_cube.fbx
+  artifactKey: Guid(03c9fa55903d79e43af5eb18dc460d6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arts/Fbx models/bevel_cube.fbx using Guid(03c9fa55903d79e43af5eb18dc460d6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8de42bd56a2728b5124d39db373b1174') in 0.211776 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Arts/Fbx models/pillar5.fbx
+  artifactKey: Guid(3ad74007e2315d84abed17975881b419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arts/Fbx models/pillar5.fbx using Guid(3ad74007e2315d84abed17975881b419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2517ee4752c2bdf4189605999fa2bd56') in 0.036811 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Arts/Fbx models/smoker.fbx
+  artifactKey: Guid(9887fb9607bc29d4e8e0e0eaf8efc7fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arts/Fbx models/smoker.fbx using Guid(9887fb9607bc29d4e8e0e0eaf8efc7fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae044c0937cafd23f8af0c83cb9668f9') in 0.041484 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Arts/Fbx models/Ship_3.fbx
+  artifactKey: Guid(e7c74dae313925e45b7743406b0e771b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arts/Fbx models/Ship_3.fbx using Guid(e7c74dae313925e45b7743406b0e771b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '985d743507e13ed828ba14c16722c1b5') in 0.099745 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Arts/Fbx models/Ship_6.fbx
+  artifactKey: Guid(96a999994a5e00042ad9118ce4e14af9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arts/Fbx models/Ship_6.fbx using Guid(96a999994a5e00042ad9118ce4e14af9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19f6902ff061ce2c0a7218b39a34bd2c') in 0.110949 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Arts/Fbx models/Ship_2.fbx
+  artifactKey: Guid(105e40dca79d29d4f9da6cf8fc780252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arts/Fbx models/Ship_2.fbx using Guid(105e40dca79d29d4f9da6cf8fc780252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e5c70e8e59d79826c87eda6b6b679a1') in 0.109931 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Arts/Fbx models/Ship_1.fbx
+  artifactKey: Guid(72bb18cb47087a446ab880816871cd5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arts/Fbx models/Ship_1.fbx using Guid(72bb18cb47087a446ab880816871cd5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cec4167d5a89ce9aa1cae19ba847334d') in 0.107675 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Arts/Fbx models/flat_cube.fbx
+  artifactKey: Guid(309c2d518c65cbd4e9594ad3217916f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arts/Fbx models/flat_cube.fbx using Guid(309c2d518c65cbd4e9594ad3217916f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9e4c263174d2ee9d630f9b0c3e9a541') in 0.043830 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Arts/Fbx models/imagePlane1.fbx
+  artifactKey: Guid(4e2e45da68eb31942a7c0bf8faca2abb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arts/Fbx models/imagePlane1.fbx using Guid(4e2e45da68eb31942a7c0bf8faca2abb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17df834b3a6f25adadeb1eb8906dc81c') in 0.008992 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Arts/Fbx models/smoking_pillar.fbx
+  artifactKey: Guid(d048afb908bd6f34e8ea9b79173342c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arts/Fbx models/smoking_pillar.fbx using Guid(d048afb908bd6f34e8ea9b79173342c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7df563214aea6ff93b3d1d8688e02395') in 0.036828 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Arts/Fbx models/pipe.fbx
+  artifactKey: Guid(b2abf0aabf2b3cd46b6e87129355d2bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arts/Fbx models/pipe.fbx using Guid(b2abf0aabf2b3cd46b6e87129355d2bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59c6b72a20cbf5b2857f8b120a5a49ee') in 0.102633 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
